@@ -180,10 +180,11 @@ width: 250px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: black;
 @media screen and (max-width:768px){
 height: 200px;
 width: 200px;
-background-color: turquoise;
+background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -200,7 +201,7 @@ justify-content: center;
 align-items: center;
 object-fit: cover;
 background-color: black;
-opacity:50%;
+opacity:30%;
 @media screen and (max-width:768px){
 height: 200px;
 width: 200px;
@@ -211,7 +212,9 @@ display: flex;
 justify-content: center;
 align-items: center;
 object-fit: cover;
-opacity:50%;
+opacity:30%;
+background-color: black;
+
 }
 
 
@@ -238,12 +241,15 @@ width: 250px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: black;
 @media screen and (max-width:768px){
 height: 200px;
 width: 200px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: black;
+
 
 }
 
