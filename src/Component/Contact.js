@@ -36,7 +36,19 @@ const Contact = () => {
                     <Icon2></Icon2>
                     <Email>Email: esepgsadmissions@gmail.com</Email>
                     <PhoneNumber>Phone Number:+22964251703 +2347062944349 </PhoneNumber>
+                    <MapDiv>
+                        <iframe 
+                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.149164034653!2d2.6246083141499477!3d6.502793825209307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b5a02450e9ef9%3A0xae02282713c1682a!2sLong%20Rail%20Kandevi%C3%A9%2C%20Porto-Novo%2C%20Benin!5e0!3m2!1sen!2sng!4v1641570049675!5m2!1sen!2sng" 
+                            //   width="600" 
+                            //   height="450" 
+                            //   style={{border:0,
+                            //        allowfullscreen:"",
+                            //         loading:"lazy"}}
+                        ></iframe>
+                   
+                    </MapDiv>
                 </AddressHolder>
+               
 
             </Wrapper>
         </Container>
@@ -46,6 +58,19 @@ const Contact = () => {
 export default Contact
 
 
+const MapDiv =styled.div`
+margin-top: 20px;
+height: 400px;
+width: 90%;
+iframe {
+height: 400px;
+width: 90%;
+border: none;
+
+}
+
+
+`
 const PhoneNumber = styled.div`
 color: black;
 
@@ -65,7 +90,11 @@ font-size: 40px;
 const AddressHolder = styled.div`
 line-height: 1.5rem;
 height:500px;
-width: 100%;
+width: 90%;
+display: flex;
+justify-content: center;
+flex-direction:column;
+align-items:center;
 `
 
 
@@ -206,7 +235,7 @@ justify-content: space-between;
 @media screen and (max-width:768px){
 height: 700px;
 width: 90%;
-margin-top: 40px;
+margin-top: 10px;
 color:black;
 display: flex;
 flex-direction: column;
